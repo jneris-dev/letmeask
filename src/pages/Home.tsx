@@ -46,7 +46,7 @@ export function Home() {
             return;
         }
 
-        navigate(`/rooms/${roomCode}`);
+        navigate(`rooms/${roomCode}`);
     }
 
     return (
